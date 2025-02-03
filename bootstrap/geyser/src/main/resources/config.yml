@@ -2,7 +2,7 @@
 # your servers public IP
 remote-address: auto
 
-# The port to broadcast, this should be left as auto unless your
+# The port to broadcast, this should be left as auto unless you're
 # manipulating the port using network rules or reverse proxies
 remote-port: auto
 
