@@ -2,19 +2,19 @@
 # your servers public IP
 remote-address: auto
 
-# The port to broadcast, this should be left as auto unless your
+# The port to broadcast, this should be left as auto unless you're
 # manipulating the port using network rules or reverse proxies
 remote-port: auto
 
 # The amount of time in seconds to update session information and
 # sync other data
-# Warning: This can be no lower than 20 due to xbox rate limits
+# Warning: This can be no lower than 20 due to Xbox rate limits
 update-interval: 30
 
 # Friend/follower list sync settings
 friend-sync:
   # The amount of time in seconds to check for follower changes
-  # This can be no lower than 20 due to xbox rate limits
+  # This can be no lower than 20 due to Xbox rate limits
   update-interval: 20
 
   # Should we automatically follow people that follow us
